@@ -269,7 +269,7 @@ async def analyze(jd_file: UploadFile = File(...), resume_files: List[UploadFile
 # -------------------------------
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "version": "3.0"}
+    return {"status": "healthy", "version": "1.0"}
 
 # -------------------------------
 # Run the App
@@ -277,3 +277,4 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
