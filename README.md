@@ -158,15 +158,15 @@ Each result also includes:
 
 #### App Screens
 
-![alt text](image-1.png)
+![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-1.png?raw=true)
 
-![alt text](image-2.png)
+!![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-2.png?raw=true)
 
-![alt text](image-3.png)
+![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-3.png?raw=true)
 
-![alt text](image-4.png)
+![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-4.png?raw=true)
 
-![alt text](image-5.png)
+![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-5.png?raw=true)
 
 ---
 
@@ -191,4 +191,5 @@ Key libraries:
 - **scikit-learn** - TF-IDF & cosine similarity.
 
 ---
+
 
