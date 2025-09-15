@@ -7,8 +7,8 @@ python-dotenv==1.0.0
 
 # LangChain + OpenAI Integration
 langchain==0.2.14
-langchain-openai==0.1.7
-openai==1.40.0
+langchain-openai
+openai
 
 
 # AI/ML Libraries
