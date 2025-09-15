@@ -156,7 +156,7 @@ Each result also includes:
 - Summary of the resume.
 - Detailed breakdown of semantic, TF-IDF, and keyword scores.
 
-#### App Screens
+### App Screenshot
 
 ![App Screenshot](https://github.com/Bhargavi-6/JobFitAI/blob/main/images/image-1.png?raw=true)
 
@@ -191,5 +191,6 @@ Key libraries:
 - **scikit-learn** - TF-IDF & cosine similarity.
 
 ---
+
 
 
