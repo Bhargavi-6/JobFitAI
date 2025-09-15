@@ -30,20 +30,20 @@ logger = logging.getLogger(__name__)
 # -------------------------------
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 if not OPENAI_API_KEY:
     raise ValueError("OPENAI_API_KEY not found in environment variables.")
 
 # LangChain LLM Setup
 llm = ChatOpenAI(
-    openai_api_key=OPENAI_API_KEY,
-    model="gpt-4o-mini",
+    model_name="gpt-4o-mini",
     temperature=0.3
 )
 
 # -------------------------------
 # FastAPI App Initialization
 # -------------------------------
-app = FastAPI(title="Resume Matcher API", version="3.0")
+app = FastAPI(title="Resume Matcher API", version="1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

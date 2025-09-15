@@ -57,7 +57,7 @@ with left_col:
     jd_file = st.file_uploader(
         "Upload JD (PDF/DOCX/TXT, max 5MB)",
         type=["pdf", "docx", "txt"],
-        label_visibility="collapsed",
+        label_visibility="visible",
         help="Upload the job description to match against"
     )
     
@@ -65,7 +65,7 @@ with left_col:
         "Upload Resumes (PDF/DOCX/TXT, max 5MB each)",
         type=["pdf", "docx", "txt"],
         accept_multiple_files=True,
-        label_visibility="collapsed",
+        label_visibility="visible",
         help="Upload one or more resume files"
     )
     
